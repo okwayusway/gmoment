@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "gmobileweb",
+      "public": "dist/gmobileweb",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

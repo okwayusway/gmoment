@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "gmobile-capture-location": {
+      "hosting": {
+        "gmobileweb": [
+          "gmobile-capture-location"
+        ]
+      }
+    }
+  }
+}

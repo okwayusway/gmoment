@@ -1,0 +1,23 @@
+
+
+.map-wrapper {
+    height: 100vh;
+    width: 100vw;
+    display:grid;
+    grid-template-rows: 50px calc(100vh - 80px);
+    padding:0;
+}
+
+#map{
+    grid-row: 2;
+    height: 100%;
+}
+
+.card-wrapper{
+    grid-row: 1;
+    padding: 5px;
+}
+
+.card-wrapper *{
+    margin: 0 5px;
+}
